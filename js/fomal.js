@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | ShiZhongyan🍭")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | nightshone")[0];
 }
 
 function scrollToTop() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到ShiZhongyan🍭の小家!`,
+    `欢迎来到这里🍭小家!`,
     `Future is now 🍭🍭🍭`,
     `
 
@@ -1135,7 +1135,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©205 By 我叫石仲彦",
+    "©205 By 我是nightshone",
   ];
 
   setTimeout(
@@ -1174,7 +1174,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by ShiZhongyan🍭 %c 你正在访问nightshone🍭home",
+      "%c ⚡ Powered by 夜笙🍭 %c 你正在访问nightshone🍭home",
       "color:white; background-color:#f0ad4e",
       ""
     )
