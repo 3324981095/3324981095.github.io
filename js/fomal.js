@@ -1323,11 +1323,11 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '👀来捉迷藏了~';
+    document.title = '👀来捉迷藏喽~';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '🐖被我逮到了～';
+    document.title = '🐖别跑！站住！';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
