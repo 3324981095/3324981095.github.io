@@ -17,7 +17,7 @@ function getNew() {
         bibi.removeChild(document.getElementById('more'))
     } catch (error) { }
 
-    bibi.innerHTML += '<div id="bb_loading"><img src="/assets/loading3.gif" alt="bb_loading"></div>' // bb_loading图片可以f12在我网站源码下载，也可以使用其他图片。
+    bibi.innerHTML += '<div id="bb_loading"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/assets/loading3.gif" alt="bb_loading"></div>' // bb_loading图片可以f12在我网站源码下载，也可以使用其他图片。
 
     fetch(Url + page).then(res => res.json()).then((res) => {
         total = res.data.total
@@ -62,7 +62,7 @@ function contentFormat(s) {
     let html = '<br>'
     if (ls) {
         ls.forEach((e) => {
-            html += '<a href="' + e + '" target="_blank" data-fancybox="group" class="fancybox"><img src="' + e + '"></a>'
+            html += '<a href="' + e + '" target="_blank" data-fancybox="group" class="fancybox"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="' + e + '"></a>'
         })
     }
     s += html
