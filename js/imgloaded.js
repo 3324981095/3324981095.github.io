@@ -68,7 +68,7 @@ class ProgressiveLoad {
   
   const config = {
     smallSrc: 'https://cdn.szyd.fun/2025/04/21/6805f25b9882e.jpeg', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: 'https://cdn.szyd.fun/2025/04/18/68023b990e5ba.jpeg', // 大图链接 最终显示的图片
+    largeSrc: 'https://cdn.szyd.fun/2025/04/21/6805c3da5dfc1.webp', // 大图链接 最终显示的图片
     mobileSmallSrc: '/img/sjxt.jpg', // 手机端小图链接 尽可能配置小于100k的图片
     mobileLargeSrc: '/img/sjdt.jpg', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
