@@ -6,7 +6,7 @@
   <link href="https://www.nightshone.top/atom.xml" rel="self"/>
   
   <link href="https://www.nightshone.top/"/>
-  <updated>2025-04-21T02:45:16.494Z</updated>
+  <updated>2025-04-21T04:13:58.796Z</updated>
   <id>https://www.nightshone.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.nightshone.top/posts/77476c01.html"/>
     <id>https://www.nightshone.top/posts/77476c01.html</id>
     <published>2025-04-21T02:42:43.386Z</published>
-    <updated>2025-04-21T02:45:16.494Z</updated>
+    <updated>2025-04-21T04:13:58.796Z</updated>
     
     <content type="html"><![CDATA[<h1></h1>]]></content>
     
@@ -29,6 +29,8 @@
     <summary type="html">本期带来linux相关指令操作</summary>
     
     
+    
+    <category term="linux" scheme="https://www.nightshone.top/categories/linux/"/>
     
     
   </entry>
