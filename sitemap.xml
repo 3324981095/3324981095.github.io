@@ -221,14 +221,14 @@
 
   
   <url>
-    <loc>https://www.nightshone.top/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://www.nightshone.top/categories/linux/</loc>
     <lastmod>2025-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.nightshone.top/categories/linux/</loc>
+    <loc>https://www.nightshone.top/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2025-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
