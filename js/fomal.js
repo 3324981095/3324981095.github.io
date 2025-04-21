@@ -3176,8 +3176,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://sourcebucket.s3.bitiful.net/img/dm14.webp);
-    --darkmode-bg:url(https://sourcebucket.s3.bitiful.net/img/yuanshen1.webp);
+    --default-bg: url(https://cdn.szyd.fun/2025/04/18/68023b990e5ba.jpeg);
+    --darkmode-bg:url(https://cdn.szyd.fun/2025/04/21/6805c3da5dfc1.webp);
     --mobileday-bg: url(source\image\background.jpg);
     --mobilenight-bg: url(https://sourcebucket.s3.bitiful.net/img/img/mb8.webp);
   }`;
