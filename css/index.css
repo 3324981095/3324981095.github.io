@@ -5219,7 +5219,7 @@ mjx-container[display],
   border-radius: 5px !important;
 }
 [data-theme="dark"] #web_bg {
-  background: var(--darkmode-bg);
+  background: #2A0F14;
   background-attachment: local;
   background-position: center;
   background-size: cover;
