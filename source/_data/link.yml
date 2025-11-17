@@ -1,0 +1,24 @@
+- class_name: 0.推荐网站🍔
+  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
+  link_list: 
+    - name: nightshone
+      link: https://nightshone.top
+      avatar: \source\image\myself1.jpg
+      descr: 自由且沉沦
+      siteshot: https://cdn.szyd.fun/2025/04/16/67ff936d564dd.png
+
+
+- class_name: 推荐网站用户🍔
+  link_list: 
+    - name: szy
+      link: https://szyd.fun
+      avatar: https://cdn.szyd.fun/2025/04/14/67fcef3fcd837.webp
+      descr: Have s funny day!
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg、
+      
+      link_list: 
+    - name: DevVerse
+      link: https://devverse.com.cn
+      avatar: https://cdn.szyd.fun/2025/04/22/68072837975fe.jpg
+      descr: 
+      siteshot: 
