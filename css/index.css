@@ -9512,6 +9512,22 @@ hr:before {
   transition: all 0.3s ease-in-out;
 }
 
+/* 针对当前代码块的容器（ARDUINO对应的代码块） */
+.arduino-code-block,  /* 替换成实际代码块的class（可通过F12查看） */
+.highlight-wrap,      /* Butterfly主题通用代码块容器 */
+.code-block-container {
+  max-height: none !important;  /* 彻底取消最大高度限制 */
+  height: auto !important;      /* 高度自适应内容 */
+  overflow: visible !important; /* 溢出内容直接显示（或auto显示滚动条） */
+}
+
+/* 代码块内部的代码区域 */
+.highlight-wrap pre,
+.code-block-container code {
+  overflow: auto !important;    /* 长代码显示滚动条 */
+  white-space: pre-wrap !important; /* 长代码自动换行 */
+}
+
 .search-dialog {
   position: fixed;
   top: 10%;
