@@ -9478,22 +9478,19 @@ hr:before {
   transition: all 0.3s ease-in-out;
 }
 
-/* 针对当前代码块的容器（ARDUINO对应的代码块） */
-.arduino-code-block,  /* 替换成实际代码块的class（可通过F12查看） */
-.highlight-wrap,      /* Butterfly主题通用代码块容器 */
-.code-block-container {
-  max-height: none !important;  /* 彻底取消最大高度限制 */
-  height: auto !important;      /* 高度自适应内容 */
-  overflow: visible !important; /* 溢出内容直接显示（或auto显示滚动条） */
+/* 强制取消代码块高度限制，直接生效 */
+figure.highlight.arduino,
+figure.highlight {
+  height: auto !important;        /* 高度自适应 */
+  max-height: none !important;    /* 取消最大高度 */
+  overflow: auto !important;      /* 超出显示滚动条 */
 }
-
-/* 代码块内部的代码区域 */
-.highlight-wrap pre,
-.code-block-container code {
-  overflow: auto !important;    /* 长代码显示滚动条 */
-  white-space: pre-wrap !important; /* 长代码自动换行 */
+/* 代码内容自动换行 */
+figure.highlight.arduino pre,
+figure.highlight pre {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
 }
-
 .search-dialog {
   position: fixed;
   top: 10%;
