@@ -7736,8 +7736,9 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://cdn.szyd.fun/2025/04/13/67fb6b94265ba.jpg)
-    no-repeat center center;
+  /* background: url(https://cdn.szyd.fun/2025/04/13/67fb6b94265ba.jpg) no-repeat center center; */
+  /* cdn.szyd.fun 域名无法解析导致一直转圈加载不出来，暂且注释或更换为可用图片 */
+  background-color: #6bdf8f;
   background-size: cover;
 }
 
