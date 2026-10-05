@@ -6740,6 +6740,23 @@ div#archive {
 #page-header {
   background-color: transparent !important;
 }
+
+#web_bg {
+  background-image: url("https://picsum.photos/id/1018/1200/675") !important;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+[data-theme="light"] #recent-posts > .recent-post-item,
+[data-theme="light"] #aside-content .card-widget:not(.card-info),
+[data-theme="light"] div#post,
+[data-theme="light"] div#page,
+[data-theme="light"] div#archive {
+  background-color: rgba(255, 255, 255, 0.72) !important;
+}
+
 /* 夜间模式页脚遮罩隐藏 */
 [data-theme="dark"] #footer::before {
   background: transparent !important;
