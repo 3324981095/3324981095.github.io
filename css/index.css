@@ -6738,7 +6738,7 @@ div#archive {
 
 /* 头图隐藏 */
 #page-header {
-  background: transparent !important;
+  background-color: transparent !important;
 }
 /* 夜间模式页脚遮罩隐藏 */
 [data-theme="dark"] #footer::before {
