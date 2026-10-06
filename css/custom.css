@@ -6,35 +6,29 @@
   --site-glow-cool: rgba(146, 171, 216, 0.22);
 }
 
-html,
-body,
+html {
+  background: #f5efe9;
+}
+
+body {
+  background:
+    linear-gradient(135deg, rgba(255, 251, 247, 0.72), rgba(245, 241, 238, 0.42)),
+    url("https://szycdn.szyd.fun/2025/10/03/68df708a5a8ed.jpeg") center center / cover no-repeat fixed !important;
+}
+
 #body-wrap,
 .layout,
 .layout > div {
-  background:
-    radial-gradient(circle at 14% 14%, var(--site-glow-warm), transparent 22%),
-    radial-gradient(circle at 82% 18%, var(--site-glow-cool), transparent 24%),
-    radial-gradient(circle at 70% 78%, rgba(214, 192, 178, 0.5), transparent 26%),
-    linear-gradient(135deg, var(--site-page-bg-1) 0%, var(--site-page-bg-2) 40%, var(--site-page-bg-3) 100%) !important;
-  background-attachment: fixed;
-  background-size: cover;
+  background: transparent !important;
 }
 
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image:
-    linear-gradient(rgba(255,255,255,0.14), rgba(255,255,255,0.04)),
-    radial-gradient(rgba(99, 77, 63, 0.08) 1px, transparent 1px);
-  background-size: auto, 16px 16px;
+  background: rgba(255, 255, 255, 0.08);
   pointer-events: none;
   z-index: -1;
-  opacity: 0.9;
-}
-
-.layout {
-  background: transparent !important;
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
