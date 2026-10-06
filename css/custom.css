@@ -22,6 +22,11 @@ body {
   background: transparent !important;
 }
 
+/* 文章正文恢复原来的卡片背景，保证文字可读 */
+#post {
+  background: var(--efu-card-bg) !important;
+}
+
 body::before {
   content: "";
   position: fixed;
