@@ -12,7 +12,6 @@ html {
 
 body {
   background:
-    linear-gradient(135deg, rgba(255, 251, 247, 0.72), rgba(245, 241, 238, 0.42)),
     url("https://szycdn.szyd.fun/2025/10/03/68df708a5a8ed.jpeg") center center / cover no-repeat fixed !important;
 }
 
@@ -26,7 +25,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
   pointer-events: none;
   z-index: -1;
 }
