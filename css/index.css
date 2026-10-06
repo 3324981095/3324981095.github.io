@@ -14446,11 +14446,11 @@ div#banners .bannerText {
   pointer-events: none;
 }
 [data-theme=dark] {
-  --efu-theme: #ffc848;
-  --efu-theme-op: rgba(255,200,72,0.137);
-  --efu-theme-op-deep: rgba(255,200,72,0.867);
-  --efu-theme-none: rgba(255,200,72,0);
-  --efu-nav-hover-text: #1b1c20;
+  --efu-theme: #c79d7d;
+  --efu-theme-op: rgba(199,157,125,0.137);
+  --efu-theme-op-deep: rgba(199,157,125,0.867);
+  --efu-theme-none: rgba(199,157,125,0);
+  --efu-nav-hover-text: #f6efe8;
   --efu-blue: #0084ff;
   --efu-red: #ff3842;
   --efu-pink: #d44040;
@@ -14494,11 +14494,11 @@ div#banners .bannerText {
   --efu-background: #18171d;
 }
 [data-theme=light] {
-  --efu-theme: #425aef;
-  --efu-theme-op: rgba(66,90,239,0.137);
-  --efu-theme-op-deep: rgba(66,90,239,0.867);
+  --efu-theme: #a77f69;
+  --efu-theme-op: rgba(167,127,105,0.137);
+  --efu-theme-op-deep: rgba(167,127,105,0.867);
   --efu-theme-op-light: rgba(66,89,239,0.051);
-  --efu-theme-none: rgba(66,90,239,0);
+  --efu-theme-none: rgba(167,127,105,0);
   --efu-nav-hover-text: #fff;
   --efu-blue: #425aef;
   --efu-red: #f04a63;

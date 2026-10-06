@@ -1,14 +1,21 @@
-/* 全站背景：温暖文艺复古风 */
-html {
-  background: #f4efe9;
+:root {
+  --site-page-bg-1: #f7f1ea;
+  --site-page-bg-2: #efe6da;
+  --site-page-bg-3: #f8f5f0;
+  --site-glow-warm: rgba(205, 164, 125, 0.42);
+  --site-glow-cool: rgba(146, 171, 216, 0.22);
 }
 
-body {
+html,
+body,
+#body-wrap,
+.layout,
+.layout > div {
   background:
-    radial-gradient(circle at 15% 15%, rgba(216, 178, 124, 0.26), transparent 22%),
-    radial-gradient(circle at 85% 18%, rgba(191, 144, 125, 0.18), transparent 24%),
-    radial-gradient(circle at 70% 80%, rgba(188, 170, 154, 0.26), transparent 25%),
-    linear-gradient(135deg, #f9f4ee 0%, #f3ece3 38%, #efe4dc 100%);
+    radial-gradient(circle at 14% 14%, var(--site-glow-warm), transparent 22%),
+    radial-gradient(circle at 82% 18%, var(--site-glow-cool), transparent 24%),
+    radial-gradient(circle at 70% 78%, rgba(214, 192, 178, 0.5), transparent 26%),
+    linear-gradient(135deg, var(--site-page-bg-1) 0%, var(--site-page-bg-2) 40%, var(--site-page-bg-3) 100%) !important;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -18,8 +25,8 @@ body::before {
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(255,255,255,0.08), rgba(255,255,255,0.03)),
-    radial-gradient(rgba(120, 88, 69, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.14), rgba(255,255,255,0.04)),
+    radial-gradient(rgba(99, 77, 63, 0.08) 1px, transparent 1px);
   background-size: auto, 16px 16px;
   pointer-events: none;
   z-index: -1;
@@ -27,7 +34,7 @@ body::before {
 }
 
 .layout {
-  background: transparent;
+  background: transparent !important;
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
