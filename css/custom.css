@@ -1,14 +1,14 @@
-/* 全站背景：温暖渐变 + 柔和光晕 */
+/* 全站背景：温暖文艺复古风 */
 html {
-  background: #f7f4f1;
+  background: #f4efe9;
 }
 
 body {
   background:
-    radial-gradient(circle at top left, rgba(255, 192, 132, 0.55), transparent 26%),
-    radial-gradient(circle at 85% 16%, rgba(164, 196, 255, 0.6), transparent 28%),
-    radial-gradient(circle at bottom right, rgba(255, 170, 204, 0.42), transparent 30%),
-    linear-gradient(135deg, #fffaf5 0%, #f4f6ff 42%, #fef3fb 100%);
+    radial-gradient(circle at 15% 15%, rgba(216, 178, 124, 0.26), transparent 22%),
+    radial-gradient(circle at 85% 18%, rgba(191, 144, 125, 0.18), transparent 24%),
+    radial-gradient(circle at 70% 80%, rgba(188, 170, 154, 0.26), transparent 25%),
+    linear-gradient(135deg, #f9f4ee 0%, #f3ece3 38%, #efe4dc 100%);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -18,9 +18,9 @@ body::before {
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(255,255,255,0.12), rgba(255,255,255,0.08)),
-    radial-gradient(rgba(255,255,255,0.5) 1px, transparent 1px);
-  background-size: auto, 18px 18px;
+    linear-gradient(rgba(255,255,255,0.08), rgba(255,255,255,0.03)),
+    radial-gradient(rgba(120, 88, 69, 0.08) 1px, transparent 1px);
+  background-size: auto, 16px 16px;
   pointer-events: none;
   z-index: -1;
   opacity: 0.9;
@@ -84,12 +84,12 @@ body::before {
   }
 }
 
-/* 黑夜模式适配 */
+/* 黑夜模式适配：更沉静的棕黑文艺风 */
 [data-theme="dark"] body {
   background:
-    radial-gradient(circle at top left, rgba(255, 153, 69, 0.22), transparent 24%),
-    radial-gradient(circle at 82% 12%, rgba(120, 156, 255, 0.18), transparent 28%),
-    linear-gradient(135deg, #111827 0%, #161d2b 35%, #1d1524 100%);
+    radial-gradient(circle at 20% 10%, rgba(167, 118, 79, 0.18), transparent 20%),
+    radial-gradient(circle at 80% 18%, rgba(107, 82, 68, 0.22), transparent 22%),
+    linear-gradient(135deg, #1a1715 0%, #221e1b 36%, #241c1b 100%);
 }
 
 [data-theme="dark"] #aside-content > .card-widget.card-info {
