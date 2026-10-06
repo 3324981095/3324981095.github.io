@@ -12,6 +12,7 @@ html {
 
 body {
   background:
+    linear-gradient(135deg, rgba(255, 251, 247, 0.18), rgba(245, 241, 238, 0.10)),
     url("https://szycdn.szyd.fun/2025/10/03/68df708a5a8ed.jpeg") center center / cover no-repeat fixed !important;
 }
 
